@@ -9,6 +9,9 @@ function App() {
 
   const cambiarUnidad = () => {
     setUnidad('Fahrenheit')
+    if(unidad==='Fahrenheit'){
+      setUnidad('Celsius')
+    }
   }
 
   const cambiarClima = (estado) => {
